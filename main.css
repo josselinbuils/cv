@@ -1,0 +1,183 @@
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+
+.body {
+  position: absolute;
+  top: 0;
+  left: 6.5cm;
+  right: 0;
+  bottom: 0;
+  background: rgb(250, 250, 250);
+  padding: .5cm 1.5cm;
+  color: #292929;
+  font-size: .9em;
+}
+
+.body h3 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.body h3 i {
+  margin-right: .6em;
+  font-size: 2em;
+  vertical-align: sub;
+}
+
+.body .section .item {
+  margin-top: .5cm;
+  margin-left: .4cm;
+  padding-left: .6cm;
+  border-left: .05cm solid #292929;
+}
+
+.body .section .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body .section .item.flex > div {
+  flex-basis: 45%;
+}
+
+.body .section .item .bar-container {
+  border: 1px solid grey;
+  display: inline-block;
+  width: 2cm;
+  height: .3cm;
+  margin-top: .05cm;
+}
+
+.body .section .item .bar-container .bar {
+  height: 100%;
+  background: #0089ff;
+  border-right: 1px solid grey;
+}
+
+.body .section .item .company {
+  margin-top: .1cm;
+}
+
+.body .section .item .description {
+  font-size: .9em;
+  color: #5a5a5a;
+}
+
+.body .section .item .job-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.body .section .item .location {
+  margin-left: .1cm;
+  font-size: .8em;
+  color: #5a5a5a;
+  font-weight: normal;
+}
+
+.body .section .item .period {
+  margin-top: .1cm;
+  font-size: .9em;
+  color: #5a5a5a;
+}
+
+.body .section .item .skill + .skill {
+  margin-top: .3cm;
+}
+
+.body .section .item .skill-header {
+  flex-basis: 25% !important;
+}
+
+.body .section .item .skill-list {
+  flex-grow: 1;
+}
+
+.body .section .item.no-margin-top .skill-header,
+.body .section .item.no-margin-top .skill-list {
+  margin-top: .5cm;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  position: relative;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 6.5cm;
+  background: #0089ff;
+  color: white;
+}
+
+.sidebar h4 i {
+  font-size: 1.5em;
+  margin-right: .7em;
+}
+
+.sidebar p {
+  font-size: .9em;
+}
+
+.sidebar p i {
+  margin-right: .7em;
+  width: 0.6cm;
+  text-align: center;
+}
+
+.sidebar .section {
+  width: 80%;
+  margin-top: 2cm;
+  margin-left: 10%;
+}
+
+.sidebar .section h4 {
+  margin-left: 10%;
+  margin-bottom: .7cm;
+}
+
+.sidebar .job-title h4 {
+  font-weight: normal;
+}
+
+.sidebar .name, .sidebar .job-title {
+  text-align: center;
+}
+
+.sidebar .photo-container {
+  overflow: hidden;
+  margin-top: 0.5cm;
+  margin-left: 50%;
+  transform: scale(0.85) translateX(-58.5%);
+  height: 4.5cm;
+  width: 4.5cm;
+  border-radius: 2.25cm;
+}
+
+.sidebar .photo-container img {
+  width: calc(100% + 1cm);
+  margin-left: -1cm;
+  margin-top: -.4cm;
+  filter: saturate(130%);
+}
