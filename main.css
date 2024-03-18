@@ -29,12 +29,12 @@ h6 {
 }
 
 .body h3 {
-  margin-top: 1.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .body h3 i {
-  margin-right: 0.6em;
+  margin-right: 0.3cm;
   font-size: 2em;
   vertical-align: sub;
 }
@@ -83,7 +83,7 @@ h6 {
 }
 
 .body .section .item .period {
-  margin-top: 0.1cm;
+  margin-top: 0.05cm;
   font-size: 0.9em;
   color: #5a5a5a;
 }
@@ -136,8 +136,9 @@ h6 {
 }
 
 .sidebar .section h4 {
-  margin-left: 10%;
+  margin-left: -10%;
   margin-bottom: 0.7cm;
+  text-align: center;
 }
 
 .sidebar .job-title h4 {
